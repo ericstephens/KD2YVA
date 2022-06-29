@@ -1,0 +1,29 @@
+antenna:
+  name: hf1
+  type: end-fed
+  feed:
+    length:
+      value: 50
+      unit: feet
+    type: coax
+    sub-type: rg8-x
+  radiator:
+    type: wire
+    gauge:
+      value: 18
+      unit: AWG
+    length: 
+      value: 33
+      unit: feet
+  counterpoise:
+    type: wire
+    gauge:
+      value: 18
+      unit: AWG
+    length: 
+      value: 33
+      unit: feet
+  transformer:
+    type: unun
+    # may experiment with 9:1 or 49:1 as needed
+    ratio: 4-1

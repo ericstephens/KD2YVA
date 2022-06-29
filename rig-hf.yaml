@@ -1,0 +1,28 @@
+rig:
+  radio:
+    manufacturer: Yaesu
+    model: FT-891
+    manual: true
+    acessories:
+      - rails:
+          manufacturer: Zero Portable
+      - cord:
+          type: RJ-45
+          description: extension for microphone
+  tuner:
+    manufacturer: LDG
+    model: Z-100Plus
+    manual: true
+  cords:
+    - cord:
+      type: patch
+      source: radio
+      destination: tuner
+    - cord:
+      type: coax
+      sub-type: rg8-x
+      length:
+        value: 1
+        unit: feet
+      source: radio
+      destination: tuner

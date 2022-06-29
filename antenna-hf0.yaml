@@ -1,0 +1,27 @@
+antenna:
+  name: hf0
+  type: end-fed
+  feed:
+    length:
+      value: 50
+      unit: feet
+    type: coax
+    sub-type: rg8-x
+  radiator:
+    type: wire
+    length: 
+      value: 33
+      unit: feet
+    gauge:
+      value: 18
+      unit: AWG
+  counterpoise:
+    type: wire
+    length: 
+      value: 33
+      unit: feet
+    gauge:
+      value: 18
+      unit: AWG
+  connector:
+    type: bindingPost
