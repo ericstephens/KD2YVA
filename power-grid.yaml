@@ -1,0 +1,12 @@
+powerSupply:
+  manufacturer: MFJ
+  model: MFJ-4230MVP
+powerDistributionUnit:
+  manufacturer: West Mountain Radio
+  model: RR/4005
+cords:
+  cord:
+    type: power
+    gauge:
+      value: 10
+      unit: AWG

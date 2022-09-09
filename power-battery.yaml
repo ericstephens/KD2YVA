@@ -1,0 +1,10 @@
+battery:
+  manufacturer: Bioenno
+  model: BLF-1209A
+  powerDistributionBlock:
+    manufacturer: PowerWerx
+    model: PD-8
+  meter:
+    manufacturer: PowerWerx
+    model: WattMeter-PP
+    type: watt
